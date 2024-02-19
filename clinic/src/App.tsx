@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Header from "./Components/Header.tsx";
+import Home from "./Components/Home.tsx"
 
 function App() {
   return (
@@ -8,11 +9,11 @@ function App() {
         <Router>
           <Header/>
           <Routes>
-            <Route path={'/Home'}/>
-            <Route path={'/O-nas'}/>
-            <Route path={'/Oferta'}/>
-            <Route path={'/Cennik'}/>
-            <Route path={'/Kontakt'}/>
+            <Route path={'/'} Component={Home}/>
+            <Route path={'/o-nas'}/>
+            <Route path={'/oferta'}/>
+            <Route path={'/cennik'}/>
+            <Route path={'/kontakt'}/>
           </Routes>
           <footer>
 

@@ -14,10 +14,10 @@ function Header() {
                     <div className={'nav-container'}>
                         <ul>
                             <li className={'nav-item'}><Link className={'link'} to={'/'}><img src={'#'} alt={'Home'}/></Link></li>
-                            <li className={'nav-item'}><Link className={'link'} to={'/'} >O nas</Link></li>
-                            <li className={'nav-item'}><Link className={'link'} to={'/'}>Oferta</Link></li>
-                            <li className={'nav-item'}><Link className={'link'} to={'/'}>Cennik</Link></li>
-                            <li className={'nav-item'}><Link className={'link'} to={'/'}>Kontakt</Link></li>
+                            <li className={'nav-item'}><Link className={'link'} to={'/o-nas'} >O nas</Link></li>
+                            <li className={'nav-item'}><Link className={'link'} to={'/oferta'}>Oferta</Link></li>
+                            <li className={'nav-item'}><Link className={'link'} to={'/cennik'}>Cennik</Link></li>
+                            <li className={'nav-item'}><Link className={'link'} to={'/kontakt'}>Kontakt</Link></li>
                         </ul>
                     </div>
                 </div>

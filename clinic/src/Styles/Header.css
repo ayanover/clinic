@@ -1,11 +1,11 @@
 .header-container{
     width: 100vw;
     height: 90px;
-    background-color: white;
-    position: fixed;
+    background: linear-gradient(to bottom, #ffffff, rgba(255, 255, 255, 0));
+    position: absolute;
+    z-index: 999;
     top: 0;
     font-family: 'Saira', serif;
-    box-shadow: 0 0 5px dimgray;
 }
 .header{
     height: 100%;
