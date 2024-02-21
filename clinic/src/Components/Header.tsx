@@ -1,5 +1,6 @@
 import '../Styles/Header.css'
 import {Link} from 'react-router-dom'
+import Home from '../assets/home.webp'
 function Header() {
     return (
         <>
@@ -13,7 +14,7 @@ function Header() {
                     </div>
                     <div className={'nav-container'}>
                         <ul>
-                            <li className={'nav-item'}><Link className={'link'} to={'/'}><img src={'#'} alt={'Home'}/></Link></li>
+                            <li className={'nav-item'}><Link className={'link'} to={'/'}><img src={Home} alt={'Home'}/></Link></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/o-nas'} >O nas</Link></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/oferta'}>Oferta</Link></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/cennik'}>Cennik</Link></li>
