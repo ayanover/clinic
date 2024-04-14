@@ -1,6 +1,6 @@
 import '../Styles/Header.css'
 import {Link} from 'react-router-dom'
-import Home from '../assets/home.webp'
+import Home from '../assets/home.svg'
 function Header() {
     return (
         <>
