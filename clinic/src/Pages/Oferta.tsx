@@ -1,8 +1,8 @@
 import './PageStyles/Biorezonans.css'
 import photo from '../assets/gabinet.jpg'
-import bioresonance from '../assets/wlewy.jpg'
+import bioresonance from '../assets/gabinet.jpg'
 
-function Wlewy() {
+function Oferta() {
     return(
         <div className={'home-container-bio'}>
             <div className={'photo-container-bio'}>
@@ -19,16 +19,13 @@ function Wlewy() {
                     </ul>
                 </div>
                 <div className={'section-container'}>
-                    <h2>Wlewy <span>witaminowe</span></h2>
+                    <h2><span>Bio</span>rezonans</h2>
 
                     <div className={'content-section photo-section'}>
-                        <a>Gabinety <span>Biosfera</span> oferują także pacjentom wlewy dożylne, które są najbardziej efektywną
-                            formą wprowadzenia pożądanych środków do ludzkiego krwioobiegu,dzięki czemu są bardziej
-                            skuteczne w odróżnieniu do tradycyjnych metod – np. środków doustnych. Dzieje się tak,
-                            ponieważ w przypadku środków doustnych stosowanych w dużych ilościach żołądek zostaje
-                            bardzo obciążony, co może prowadzić do różnego rodzaju zaburzeń jelitowych, uniemożliwiając
-                            skuteczne wchłanianie przez organizm. Wlewy dożylne działają dużo szybciej od tradycyjnych
-                            witamin, dlatego bardzo dobrze sprawdzą się u osób mających ich duże niedobory.
+                        <a><span>Biorezonans</span> jest specjalistyczną metodą diagnostyki i terapii, która zapoczątkowała zupełnie
+                            nowe podejście do medycyny. Zasady obowiązujące w tej metodzie potwierdzają najnowsze
+                            wyniki badań w dziedzinie biofizyki i mechaniki kwantowej, dotychczasowo pomijane w
+                            medycynie konwencjonalnej.
                             <br/>
                             <br/>
                             W terapii biorezonansowej wykorzystuje się istniejące w organizmie człowieka drgania
@@ -64,4 +61,4 @@ function Wlewy() {
     )
 }
 
-export default Wlewy
+export default Oferta
