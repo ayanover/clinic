@@ -7,16 +7,16 @@ function Header() {
             <header className={'header-container'}>
                 <div className={'header'}>
                     <div className={'logo-container'}>
-                        <Link to={'/Home'}><img src={'#'} alt={'LOGO'}/></Link>
+                        <Link to={'/'}><img src={'#'} alt={'LOGO'}/></Link>
                     </div>
                     <div className={'name-container'}>
-                        <Link to={'/Home'}>BioSfera</Link>
+                        <Link to={'/'}>BioSfera</Link>
                     </div>
                     <div className={'nav-container'}>
                         <ul>
                             <li className={'nav-item'}><Link className={'link'} to={'/'}><img src={Home} alt={'Home'}/></Link></li>
-                            <li className={'nav-item'}><Link className={'link'} to={'/o-nas'} >Biorezonans</Link></li>
-                            <li className={'nav-item'}><Link className={'link'} to={'/oferta'}>Wlewy witaminowe</Link></li>
+                            <li className={'nav-item'}><Link className={'link'} to={'/biorezonans'} >Biorezonans</Link></li>
+                            <li className={'nav-item'}><Link className={'link'} to={'/wlewy'}>Wlewy witaminowe</Link></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/oferta'}>Oferta</Link></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/cennik'}>Cennik</Link></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/kontakt'}>Kontakt</Link></li>

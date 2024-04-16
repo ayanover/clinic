@@ -1,7 +1,7 @@
 .header-container{
     width: 100vw;
-    height: 90px;
-    background: linear-gradient(to bottom, #ffffff, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0));
+    height: 100px;
+    background: linear-gradient(to bottom, #ffffff, rgba(255, 255, 255, 0));
     position: absolute;
     z-index: 999;
     top: 0;
@@ -34,14 +34,16 @@
 }
 
 .nav-item{
-    font-weight: 450;
+    font-weight: 600;
     font-size: 1.7em;
     width: 40%;
     height: 100%;
     display: flex;
+    text-align: center;
     align-items: center;
     justify-content: center;
     transition: 0.9s;
+    color: #776e6e;
     & img{
         height: 50px;
         margin-right: -50px;
@@ -58,7 +60,7 @@
     display: block;
     height: 5px;
     left: 50%;
-    background: green;
+    background: #55AB88;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
     width: 0;
 }
@@ -67,13 +69,13 @@
     left: 0;
 }
 .link{
-    color:black;
+    color: #262424;
     text-decoration: none;
     transition: 0.2s;
 
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 768px) {
     .nav-container{
         visibility: hidden;
     }
