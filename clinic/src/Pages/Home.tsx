@@ -7,7 +7,7 @@ function Home() {
         <div className={'home-container'}>
             <div className={'photo-container-home'}>
                 <img src={photo} alt={'reception-desk'}/>
-                <a>Najnowszy sprzęt w nowej placówce w centrum <span>Rzeszowa</span></a>
+                <a>Hot Bio-centrum w <span>TWOJEJ</span> okolicy</a>
             </div>
             <ThreeBoxSection/>
         </div>

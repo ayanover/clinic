@@ -49,6 +49,7 @@ function Header() {
                             <li className={'nav-item'}><Link className={'link'} to={'/oferta'}>Oferta</Link></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/cennik'}>Cennik</Link></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/kontakt'}>Kontakt</Link></li>
+                            <li className={'nav-item'}><Link className={'link'} to={'/blog'}>Blog</Link></li>
                         </ul>
                     </div>
                     <div className={'hamburger'} onClick={handleMenuOpen}>

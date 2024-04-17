@@ -18,6 +18,7 @@ function App() {
             <Route path={'/oferta'} Component={Home}/>
             <Route path={'/cennik'} Component={Home}/>
             <Route path={'/kontakt'} Component={Home}/>
+            <Route path={'/blog'} Component={Home}/>
           </Routes>
           <Footer/>
         </Router>
