@@ -5,6 +5,11 @@ import Home from "./Pages/Home.tsx"
 import Biorezonans from "./Pages/Biorezonans.tsx";
 import Footer from "./Components/Footer.tsx";
 import Wlewy from "./Pages/Wlewy.tsx";
+import Cookies from "./Components/Cookies.tsx";
+import Blog from "./Pages/Blog.tsx";
+import Oferta from "./Pages/Oferta.tsx";
+import Cennik from "./Pages/Cennik.tsx";
+import Kontakt from "./Pages/Kontakt.tsx";
 
 function App() {
   return (
@@ -15,12 +20,13 @@ function App() {
             <Route path={'/'} Component={Home}/>
             <Route path={'/biorezonans'} Component={Biorezonans}/>
             <Route path={'/wlewy'} Component={Wlewy}/>
-            <Route path={'/oferta'} Component={Home}/>
-            <Route path={'/cennik'} Component={Home}/>
-            <Route path={'/kontakt'} Component={Home}/>
-            <Route path={'/blog'} Component={Home}/>
+            <Route path={'/oferta'} Component={Oferta}/>
+            <Route path={'/cennik'} Component={Cennik}/>
+            <Route path={'/kontakt'} Component={Kontakt}/>
+            <Route path={'/blog'} Component={Blog}/>
           </Routes>
           <Footer/>
+          <Cookies/>
         </Router>
     </>
   )

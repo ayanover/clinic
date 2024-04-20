@@ -2,10 +2,10 @@ import './PageStyles/Blog.css'
 import InProgress from "./inProgress.tsx";
 
 
-function Oferta() {
+function Kontakt() {
     return(
         <InProgress/>
     )
 }
 
-export default Oferta
+export default Kontakt

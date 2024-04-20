@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #262424;
+    color: #ffffff;
     text-shadow: 2px 3px rgba(51, 49, 49, 0.6);
 }
 
@@ -23,29 +23,41 @@
     overflow: hidden;
     align-items: center;
     & img{
+        transform: translateY(-200px);
         object-fit: cover;
         width:100%;
         height: auto;
         max-height: 1000px;
     }
     & a{
-        width: 60%;
-        position: absolute;
-        top: 20vh;
-        left: 10vw;
-        font-size: 3.4rem;
+        font-size: 3rem;
         font-weight: 700;
         text-align: left;
         transition: 1s;
+    }
+    & h4{
+        font-size: 1rem;
+        top: 20vh;
+        left: 10vw;
+        text-align: left;
+        font-weight: 510;
     }
     & span{
         color: #55AB88;
     }
 }
-
+.content-container-desc{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 20vh;
+    left: 10vw;
+    width: 60%;
+}
 @media (max-width: 768px) {
     .photo-container-home{
         & img{
+            transform: translateY(-50px);
             height: 90%;
             max-width: 768px;
         }

@@ -9,7 +9,7 @@ function Biorezonans() {
                 <img src={photo} alt={'reception-desk'}/>
             </div>
             <div className={'content-container-bio'}>
-                <div className={'menu-container'}>
+                <div className={'menu-container-bio'}>
                     <h3>Na skróty: </h3>
                     <ul>
                         <li> Costam</li>

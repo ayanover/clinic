@@ -1,20 +1,40 @@
 import './ComponentStyles/threeBoxSection.css'
-import info from '../assets/info.svg'
-import map from '../assets/map.svg'
-import phone from '../assets/phone.svg'
+import info from '../assets/Icons/info.svg'
+import map from '../assets/Icons/map.svg'
+import phone from '../assets/Icons/phone.svg'
+import Map from "./Map.tsx";
+
+import { GoogleMapProvider } from '@react-google-maps/api';
+import GoogleMapComponent from './GoogleMapComponent';
+
 function threeBoxSection() {
     return (
+
         <div className={'three-block-container'}>
             <div className={'single-block first'}>
                 <div className={'title'}>
                     <img src={info} alt={'info'}/>
                     <h2> Doweidz <br/>się więcej! </h2>
                 </div>
+                <div className={'content'}>
+                    <h3>Nasz gabinet używa urządzenia Bicom Optima, czyli jednego z najlepszych urządzeń dostępnych na rynku pod względem </h3>
+                </div>
             </div>
             <div className={'single-block second'}>
                 <div className={'title'}>
                     <img src={map} alt={'map'}/>
                     <h2> Znajdź nas na mapie! </h2>
+                    <GoogleMapProvider
+                        // Initialize with your Google Maps API key
+                        apiKey="YOUR_API_KEY"
+                        // Set libraries if needed (e.g., places library for search)
+                        libraries={['places']}
+                    >
+                    <Map/>
+                    </GoogleMapProvider>
+                </div>
+                <div className={'content'}>
+                    <h3>Nasz gabinet znajduję się pod adresem:</h3>
                 </div>
             </div>
             <div className={'single-block third'}>

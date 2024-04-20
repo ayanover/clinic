@@ -2,7 +2,10 @@
   font-family: 'Saira';
   src: url("./Fonts/Saira.ttf");
 }
-
+@font-face {
+  font-family: 'fancy';
+  src: url("./Fonts/fancy.ttf");
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
