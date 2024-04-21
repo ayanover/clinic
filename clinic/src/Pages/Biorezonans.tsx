@@ -9,20 +9,13 @@ function Biorezonans() {
                 <img src={photo} alt={'reception-desk'}/>
             </div>
             <div className={'content-container-bio'}>
-                <div className={'menu-container-bio'}>
-                    <h3>Na skróty: </h3>
-                    <ul>
-                        <li> Costam</li>
-                        <li> Costam</li>
-                        <li> Costam</li>
-
-                    </ul>
-                </div>
                 <div className={'section-container'}>
                     <h2><span>Bio</span>rezonans</h2>
 
                     <div className={'content-section photo-section'}>
-                        <a><span>Biorezonans</span> jest specjalistyczną metodą diagnostyki i terapii, która zapoczątkowała zupełnie
+                        <img src={bioresonance} alt={'biores'}/>
+                        <a><span>Biorezonans</span> jest specjalistyczną metodą diagnostyki i terapii, która
+                            zapoczątkowała zupełnie
                             nowe podejście do medycyny. Zasady obowiązujące w tej metodzie potwierdzają najnowsze
                             wyniki badań w dziedzinie biofizyki i mechaniki kwantowej, dotychczasowo pomijane w
                             medycynie konwencjonalnej.
@@ -32,7 +25,7 @@ function Biorezonans() {
                             elektromagnetyczne, które są nadrzędne w stosunku do procesów biochemicznych i nimi
                             sterują.
                         </a>
-                        <img src={bioresonance} alt={'biores'}/>
+
                     </div>
                     <div className={'content-section'}>
                         <a>

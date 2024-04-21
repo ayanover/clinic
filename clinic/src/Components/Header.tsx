@@ -48,7 +48,7 @@ function Header() {
                             <li className={'nav-item'}><Link className={'link'} to={'/'}><img src={Home} alt={'Home'}/></Link></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/biorezonans'} >Biorezonans</Link></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/wlewy'} >Wlewy witaminowe</Link></li>
-                            <li className={'nav-item'}><Link className={'link dropdown-link'} to={'/oferta'}>Oferta
+                            <li className={'nav-item'}><div className={'link dropdown-link'} to={'/oferta'}>Oferta
                                 <div className={'link-dropdown-content'}>
                                     <Link className={'dropdown-item'} to={'/oferta/alergie'}>Terapia alergii</Link>
                                     <Link className={'dropdown-item'} to={'/oferta/nikotyna'}>Terapia antynikotynowa</Link>
@@ -58,7 +58,7 @@ function Header() {
                                     <Link className={'dropdown-item'} to={'/oferta/grzyby'}>Terapia grzybów</Link>
                                     <Link className={'dropdown-item'} to={'/oferta/pasozyty'}>Terapia antypasożytnicza</Link>
                                 </div>
-                            </Link></li>
+                            </div></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/cennik'}>Cennik</Link></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/kontakt'}>Kontakt</Link></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/blog'}>Blog</Link></li>

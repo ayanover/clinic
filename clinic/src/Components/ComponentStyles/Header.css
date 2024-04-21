@@ -12,8 +12,6 @@
     transition: 1s;
 }
 .header{
-    position: static;
-    overflow: visible;
     max-width: 1280px;
     height: 100%;
     display: flex;
@@ -234,6 +232,7 @@
 
     }
     .header{
+        overflow: hidden;
         justify-content: flex-start;
     }
 }
