@@ -1,6 +1,6 @@
 import '../PageStyles/Biorezonans.css'
 import photo from '../../assets/gabinet.jpg'
-import bioresonance from '../../assets/grzyby.jpg'
+import bioresonance from '../../assets/pasozyty.webp'
 
 function Pasozyty() {
     return(
@@ -10,43 +10,80 @@ function Pasozyty() {
             </div>
             <div className={'content-container-bio'}>
                 <div className={'section-container'}>
-                    <h2>Terapia <span>Grzybów</span></h2>
+                    <h2>Kuracja  <span>antypasożytnicza</span></h2>
 
                     <div className={'content-section photo-section'}>
                         <img src={bioresonance} alt={'biores'}/>
-                        <a><span>Biorezonans</span> jest specjalistyczną metodą diagnostyki i terapii, która
-                            zapoczątkowała zupełnie
-                            nowe podejście do medycyny. Zasady obowiązujące w tej metodzie potwierdzają najnowsze
-                            wyniki badań w dziedzinie biofizyki i mechaniki kwantowej, dotychczasowo pomijane w
-                            medycynie konwencjonalnej.
+                        <a><span>Pasożyty </span> stanowią spore zagrożenie dla naszego organizmu. Żywią się komórkami ludzkiego
+                    organizmu oraz powodują poważne problemy zdrowotne. Utrudnienie w rozpoznaniu i leczeniu
+                    zakażenia stanowi fakt, że pasożyty mogą bytować w różnych organach, gdzie wydalają
+                    szkodliwe toksyny. Do objawów zakażenia pasożytniczego należą m.in.:
+                        <br/>
+                    - chroniczne zmęczenie,
                             <br/>
+                    - problemy ze snem,
                             <br/>
-                            W terapii biorezonansowej wykorzystuje się istniejące w organizmie człowieka drgania
-                            elektromagnetyczne, które są nadrzędne w stosunku do procesów biochemicznych i nimi
-                            sterują.
+                    - problemy skórne,
+                            <br/>
+                    - zaburzenia psychiczne,
+                            <br/>
+                    - stany zapalne w różnych częściach ciała,
+                            <br/>
+                    - problemy z układem moczowym
+                            <br/>
+                    - bóle stawów lub mięśni
                         </a>
 
                     </div>
                     <div className={'content-section'}>
                         <a>
+                            Jeżeli zauważysz u siebie coś niepokojącego, to skontaktuj się z nami i postaw na skuteczną
+                            diagnostykę oraz terapię biorezonansową.
+                            <br/>
+                            <h3><span>Terapia biorezonansowa na pasożyty</span></h3>
+
+                            Leczenie pasożytów biorezonansem wykazuje dużą skuteczność. Na początku z wykorzystaniem
+                            aparatu BICOM Optima przeprowadzimy testy, które pozwolą nam na dokładne rozpoznanie
+                            szkodliwego pasożyta lub pasożytów w Twoim organizmie. Obecnie jesteśmy w stanie z dużą
+                        <br/>
+                            skutecznością rozpoznać większość sklasyfikowanych pasożytów, które występują w ciele
+                            człowieka. To m.in.: tasiemiec, glista ludzka, motylica wątrobowa, tęgoryjec dwunastnicy,
+                            lamblie, przywry krwi, pierwotniaki czy też nicienie.
+                        <br/>Po określeniu drobnoustroju, przechodzimy do właściwej terapii. Polega ona na wykonaniu zabiegów biorezonansowych oraz porady
+                            dotyczące suplementacji ziołowej, która wspomaga terapię. Odwrócone fale
+                            elektromagnetyczne dostarczane są do organizmu, dzięki czemu redukują, a nawet eliminują
+                            szkodliwe działanie pasożytów.
+                        <br/>Terapia biorezonansowa może być wykorzystywana jako
+                            podstawowe leczenie lub jako wsparcie dla terapii konwencjonalnej.
+
+                            <br/>
+                            <h3><span>Kuracja antypasożytnicza</span></h3>
+                            Zioła możemy zakupić jako gotowy zestaw lub ziołową mieszankę możemy wykonać sami
+                            mieszając w równych proporcjach następujące zioła:
+                            <br/>
+                            - wrotycz
+                            <br/>
+                            - piołun
+                            <br/>
+                            - kora dębu
+                            <br/>
+                            - kora kruszyny
+                            <br/>
+                            - goździki
+                            <br/>
+                            - kocanka
                             <br/>
                             <br/>
-                            <span>Biorezonans</span> potrafi wykryć nawet ukryte przyczyny choroby i przeprowadzić delikatną formę
-                            kuracji leczniczej.
-                            Opierając się na znajomości dokładnie określonych wartości liczbowych pól
-                            elektromagnetycznych możliwe jest ustalenie, czy narząd emituje pole odpowiadające
-                            zdrowemu organowi, czy uległ on procesowi patologicznemu. Co więcej, znane są częstotliwości
-                            emitowane przez każdą poszczególną bakterię, pasożyt, wirus. Warto podkreślić, że terapia
-                            biorezonansem nie powoduje skutków ubocznych, więc jest całkowicie bezpieczna
+                            Zaparzamy łyżkę takiej mieszanki w szklance wrzątku i pijemy dwa razy dziennie po szklance
+                            naparu.
                             <br/>
+                            Rano na czczo i wieczorem po kolacji.
                             <br/>
-                            Biorezonansowe testowanie alergenów jest w pełni uznawane przez Światową Organizację
-                            Zdrowia WHO (Od 2019 r.) – jako medycyna naturalna oraz komplementarna, a wyniki są na
-                            Zachodzie Europy honorowane na równi z testami skórnym, płatkowym lub z krwi.
-                            <br/>
-                            <br/>
-                            Zakres testów BRT jest jednak znacznie szerszy, gdyż sprawdzeniu możemy poddać praktycznie
-                            wszystko co spożywamy, używamy lub nas otacza.</a>
+                            Kuracja powinna trwać dosyć długo, minimum 2 tygodnie następnie przerwa 1 tydzień i
+                            ponownie 2 tygodnie. Najlepiej przedłużyć do 3 miesięcy, jednocześnie oczyszczając i
+                            wzmacniając wątrobę, oraz oczyszczanie z metali ciężkich.
+
+                        </a>
                     </div>
                 </div>
             </div>
