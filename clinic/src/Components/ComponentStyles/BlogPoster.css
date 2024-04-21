@@ -1,0 +1,35 @@
+.poster-container{
+    color: white;
+    margin-top: 115px;
+    padding: 15px;
+    width: 18%;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #55AB88;
+    & ul {
+        list-style: none;
+    }
+    & h3{
+        padding: 15px 0 0 15px;
+        margin:0;
+        font-size: 1.7rem;
+    }
+    & li{
+        padding: 3px;
+    }
+}
+
+.poster-link{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    width: 100%;
+    transition: 0.3s;
+}
+
+.poster-link:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}

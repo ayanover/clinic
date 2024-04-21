@@ -31,6 +31,12 @@ function threeBoxSection() {
                     <img src={phone} alt={'phone'}/>
                     <h2> Skontaktuj<br/> się z nami! </h2>
                 </div>
+                <div className={'content'}>
+                    <h3>Zapraszamy do kontaktowania się z nami mailowo:<br/><br/>
+                        <span>agnieszka.szeligahomik@gmail.com</span><br/><br/>
+                        Bądź pod numer telefonu: <br/><br/>
+                        <span>577935145</span></h3>
+                </div>
             </div>
         </div>
     )

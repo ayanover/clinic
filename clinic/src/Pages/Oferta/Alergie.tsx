@@ -1,8 +1,8 @@
-import './PageStyles/Biorezonans.css'
-import photo from '../assets/gabinet.jpg'
-import bioresonance from '../assets/gabinet.jpg'
+import '../PageStyles/Biorezonans.css'
+import photo from '../../assets/gabinet.jpg'
+import bioresonance from '../../assets/alergie.webp'
 
-function Biorezonans() {
+function Alergie() {
     return(
         <div className={'home-container-bio'}>
             <div className={'photo-container-bio'}>
@@ -10,7 +10,7 @@ function Biorezonans() {
             </div>
             <div className={'content-container-bio'}>
                 <div className={'section-container'}>
-                    <h2><span>Bio</span>rezonans</h2>
+                    <h2>Terapia <span>Alergii</span></h2>
 
                     <div className={'content-section photo-section'}>
                         <img src={bioresonance} alt={'biores'}/>
@@ -54,4 +54,4 @@ function Biorezonans() {
     )
 }
 
-export default Biorezonans
+export default Alergie
