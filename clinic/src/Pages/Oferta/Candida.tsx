@@ -1,6 +1,6 @@
 import '../PageStyles/Biorezonans.css'
 import photo from '../../assets/gabinet.jpg'
-import bioresonance from '../../assets/grzyby.jpg'
+import bioresonance from '../../assets/candidy.jpeg'
 
 function Candida() {
     return(
@@ -10,20 +10,22 @@ function Candida() {
             </div>
             <div className={'content-container-bio'}>
                 <div className={'section-container'}>
-                    <h2>Terapia <span>Candida</span></h2>
+                    <h2>Terapia <span>Candidy</span></h2>
 
                     <div className={'content-section photo-section'}>
                         <img src={bioresonance} alt={'biores'}/>
-                        <a><span>Biorezonans</span> jest specjalistyczną metodą diagnostyki i terapii, która
-                            zapoczątkowała zupełnie
-                            nowe podejście do medycyny. Zasady obowiązujące w tej metodzie potwierdzają najnowsze
-                            wyniki badań w dziedzinie biofizyki i mechaniki kwantowej, dotychczasowo pomijane w
-                            medycynie konwencjonalnej.
+                        <a><span>Grzyby candida albicans </span> stały się plagą XXI wieku! Powodują one szereg dolegliwości całego
+                        organizmu, takich jak alergie pokarmowe i wziewne, bóle brzucha, brak odporności, wrażliwość
+                        na zapachy, depresja, zmęczenie czy przewlekłe zapalenie zatok. Choroba jest trudna do
+                        zdiagnozowania a pacjent jest leczony jedynie objawowo, co nie przynosi długotrwałej poprawy.
+                        <br/>
+                            <span>Co to jest candida albicans?</span>
                             <br/>
-                            <br/>
-                            W terapii biorezonansowej wykorzystuje się istniejące w organizmie człowieka drgania
-                            elektromagnetyczne, które są nadrzędne w stosunku do procesów biochemicznych i nimi
-                            sterują.
+                        Candida albicans jest grzybem, który w niewielkich ilościach żyje u każdego zdrowego człowieka
+                        w jelitach i nie wyrządza żadnych szkód. Dopiero jego przerost zaczyna być chorobotwórczy. Nad
+                        tym, aby grzyb candida był trzymany w ryzach czuwają dobroczynne bakterie kwasu mlekowego.
+                        Niestety często dochodzi do ich zniszczenia i candida zaczyna się rozrastać, przebijaj się przez
+                        ścianę jelit i zakaża cały organizm! Wtedy dochodzi o szeregu uciążliwych chorób.
                         </a>
 
                     </div>
@@ -31,22 +33,45 @@ function Candida() {
                         <a>
                             <br/>
                             <br/>
-                            <span>Biorezonans</span> potrafi wykryć nawet ukryte przyczyny choroby i przeprowadzić delikatną formę
-                            kuracji leczniczej.
-                            Opierając się na znajomości dokładnie określonych wartości liczbowych pól
-                            elektromagnetycznych możliwe jest ustalenie, czy narząd emituje pole odpowiadające
-                            zdrowemu organowi, czy uległ on procesowi patologicznemu. Co więcej, znane są częstotliwości
-                            emitowane przez każdą poszczególną bakterię, pasożyt, wirus. Warto podkreślić, że terapia
-                            biorezonansem nie powoduje skutków ubocznych, więc jest całkowicie bezpieczna
+                            <span>
+                                Technologia biorezonansu </span> jest niemiecką koncepcją nowoczesnej diagnostyki. Stosowana jest w
+                                medycynie niekonwencjonalnej. Ma bardzo dużą potwierdzalność wyników a terapie oparte na
+                                nich charakteryzują się bardzo dużą skutecznością. Za pomocą biorezonansu Bicom można badać
+                                cały organizm, nie tylko candidę.
+                            <br/>
+                            W naszym gabinecie stosujemy kompleksowe podjecie i nawet
+                                jeśli mamy przypadek osoby z podejrzeniem candidy to analizujemy cały organizm. Sprawdzamy
+                                stan narządów wewnętrznych, kondycje systemu immunologicznego, tolerancje pokarmowe,
+                                obciążenia toksynami środowiskowymi takimi jak metale ciężkie oraz wiele innych potencjalnie
+                                szkodliwych czynników tym także inne patogeny takie jak bakterie i pasożyty. Jest to ważne,
+                                ponieważ kuracje musi zawierać pełne podejście do danego organizmu. Samo wytrucie grzyba
+                                jest często mało pomocne, ponieważ nie zostają usunięte przyczyny, dla których ten grzyb się
+                                rozrósł i za chwile choroba wraca.
                             <br/>
                             <br/>
-                            Biorezonansowe testowanie alergenów jest w pełni uznawane przez Światową Organizację
-                            Zdrowia WHO (Od 2019 r.) – jako medycyna naturalna oraz komplementarna, a wyniki są na
-                            Zachodzie Europy honorowane na równi z testami skórnym, płatkowym lub z krwi.
+
+                                Wiarygodność pomiarów biorezonansowych jest różna i zależy od jakości sprzętu jak i od
+                                doświadczenia osoby wykonującej. Urządzenia Bicom są najlepszymi urządzeniami na świecie,
+                                potwierdzalność wyników sięga 98 procent, co jest najwyższym wynikiem wśród innych
+                                aparatów na rynku. Nasi terapeuci posiadają odpowiednie certyfikowane szkolenia i są
+                                specjalistami w zakresie diagnostyki i terapii Bicom.
                             <br/>
                             <br/>
-                            Zakres testów BRT jest jednak znacznie szerszy, gdyż sprawdzeniu możemy poddać praktycznie
-                            wszystko co spożywamy, używamy lub nas otacza.</a>
+
+                            <span>Leczenie alternatywne candidy albicans</span>
+                            <br/>
+                                Na podstawie wyników stosujemy indywidualnie dobrane kompleksowe kuracje. Podstawą jest
+                                działania mające na celu wytrucie grzybów jednak nie można pominąć innych rzeczy
+                                wpływających na kondycje organizmu i układu immunologicznego. Bardzo ważne jest
+                                przywrócenie naturalnej flory bakteryjnej jelit, odpowiednio dobrana dieta oraz inne
+                                ukierunkowane działania w zależności od wyniku.
+                            <br/>
+                            Często pacjenci z grzybica są także zakażeni
+                                pasożytami lub bakteriami i bez ich wytrucia nie da się wyleczyć candidy. Wydawać by się mogło,
+                                że środki na candidę usuną także inne patogeny ale nie zawsze tak jest i trzeba wówczas dobrać
+                                kilka preparatów.
+                            <br/>
+                            </a>
                     </div>
                 </div>
             </div>
