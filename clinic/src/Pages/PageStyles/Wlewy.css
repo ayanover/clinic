@@ -202,6 +202,12 @@
         filter: invert(100%);
     }
 }
+
+.banner{
+    width: 1800px;
+    background-color: #116766;
+    position: relative;
+}
 @media (max-width: 768px) {
 
     .menu-container{

@@ -151,6 +151,9 @@ function Wlewy() {
                         <img src={bioresonance} alt={'biores'}/>
                     </div>
                 </div>
+                <div className={'banner'}>
+                    <h1>W naszej placówce oferujemy szeroką gamę wlewów witaminowych: </h1>
+                </div>
                 <div className={'dropdown-container'}>
                     {dropdownContent.map((content, index) => (
                         <div key={index} className="dropdown">

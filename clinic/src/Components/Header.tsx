@@ -50,15 +50,13 @@ function Header() {
                             <li className={'nav-item'}><Link className={'link'} to={'/wlewy'} >Wlewy witaminowe</Link></li>
                             <li className={'nav-item'}><Link className={'link dropdown-link'} to={'/oferta'}>Oferta
                                 <div className={'link-dropdown-content'}>
-                                    <ul>
-                                        <Link to={'/'}>Terapia alergii</Link>
-                                        <Link to={'/'}>Terapia antynikotynowa</Link>
-                                        <Link to={'/'}>Leczenie boleriozy</Link>
-                                        <Link to={'/'}>Terapia na odporność</Link>
-                                        <Link to={'/'}>Terapia Candidy</Link>
-                                        <Link to={'/'}>Terapia grzybów</Link>
-                                        <Link to={'/'}>Terapia antypasożytnicza</Link>
-                                    </ul>
+                                    <Link className={'dropdown-item'} to={'/oferta/alergie'}>Terapia alergii</Link>
+                                    <Link className={'dropdown-item'} to={'/oferta/nikotyna'}>Terapia antynikotynowa</Link>
+                                    <Link className={'dropdown-item'} to={'/oferta/bolerioza'}>Leczenie boleriozy</Link>
+                                    <Link className={'dropdown-item'} to={'/oferta/odpornosc'}>Terapia na odporność</Link>
+                                    <Link className={'dropdown-item'} to={'/oferta/candida'}>Terapia Candidy</Link>
+                                    <Link className={'dropdown-item'} to={'/oferta/grzyby'}>Terapia grzybów</Link>
+                                    <Link className={'dropdown-item'} to={'/oferta/pasozyty'}>Terapia antypasożytnicza</Link>
                                 </div>
                             </Link></li>
                             <li className={'nav-item'}><Link className={'link'} to={'/cennik'}>Cennik</Link></li>

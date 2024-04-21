@@ -6,8 +6,14 @@
   font-family: 'fancy';
   src: url("./Fonts/fancy.ttf");
 }
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 0 0 100px 0; /* Adds extra padding at the bottom */
+  scroll-snap-type: y mandatory;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Saira, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 

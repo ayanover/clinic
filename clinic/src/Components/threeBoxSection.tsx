@@ -2,10 +2,7 @@ import './ComponentStyles/threeBoxSection.css'
 import info from '../assets/Icons/info.svg'
 import map from '../assets/Icons/map.svg'
 import phone from '../assets/Icons/phone.svg'
-import Map from "./Map.tsx";
 
-import { GoogleMapProvider } from '@react-google-maps/api';
-import GoogleMapComponent from './GoogleMapComponent';
 
 function threeBoxSection() {
     return (
@@ -24,14 +21,6 @@ function threeBoxSection() {
                 <div className={'title'}>
                     <img src={map} alt={'map'}/>
                     <h2> Znajdź nas na mapie! </h2>
-                    <GoogleMapProvider
-                        // Initialize with your Google Maps API key
-                        apiKey="YOUR_API_KEY"
-                        // Set libraries if needed (e.g., places library for search)
-                        libraries={['places']}
-                    >
-                    <Map/>
-                    </GoogleMapProvider>
                 </div>
                 <div className={'content'}>
                     <h3>Nasz gabinet znajduję się pod adresem:</h3>
@@ -41,6 +30,12 @@ function threeBoxSection() {
                 <div className={'title'}>
                     <img src={phone} alt={'phone'}/>
                     <h2> Skontaktuj<br/> się z nami! </h2>
+                </div>
+                <div className={'content'}>
+                    <h3>Zapraszamy do kontaktowania się z nami mailowo:<br/><br/>
+                        <span>agnieszka.szeligahomik@gmail.com</span><br/><br/>
+                        Bądź pod numer telefonu: <br/><br/>
+                        <span>577935145</span></h3>
                 </div>
             </div>
         </div>
