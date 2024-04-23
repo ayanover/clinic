@@ -10,7 +10,7 @@ function Home() {
                 <img src={photo} alt={'reception-desk'}/>
                 <div className={'content-container-desc'}>
                     <a>Gabinet Bicom <span>Optima</span> Rzeszów</a>
-                    <h4>Z diagnostyką przy użyciu renomowanego<br/>na całym świecie, urządzenia <span>Bicom Optima</span></h4>
+                    <h4>Twoja droga do zdrowia</h4>
                 </div>
             </div>
             <ThreeBoxSection/>

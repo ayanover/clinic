@@ -129,6 +129,7 @@
 }
 
 .dropdown{
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,13 +141,13 @@
         width: 100%;
         height: 70px;
     }
+    margin: 10px;
 }
 .dropdown-btn{
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
-    margin: 10px;
 }
 .dropdown-content{
     white-space: pre-wrap;
@@ -289,10 +290,10 @@
 
 @keyframes fade {
     from{
-        height: 0;
+        transform: translateY(-100vh);
     }
     to{
-        height: 400px;
+        transform: translateY(-40px);
     }
 
 }
