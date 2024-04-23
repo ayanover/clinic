@@ -6,150 +6,157 @@ import {useState} from "react";
 
 function Wlewy() {
     const dropdownNames = [
-        'Glutation (TAD) - Cudowna Molekuła',
-        'Kwas Alfa-Liponowy - Król antyoksydantów',
-        'Solcoseryl - Regeneracja w ampułce',
-        'Witamina C - "Molekuła dająca życie"',
-        'Magnez - "Pierwiastek życia"',
-        'Multiwitamina z ADEK - "Zastrzyk energii dla organizmu"',
         'Kroplówka nawadniająca',
-        'Kroplówka wzmacniająca',
-        'Kroplówka na wsparcie wątroby',
-        'Kroplówka minerałowa',
-        'Kwas foliowy',
-        'Koenzym Q10',
-        'Witaminy z grupy B',
+        'Kwas Alfa-Liponowy - Król antyoksydantów',
+        'Kroplówka regeneracyjna',
+        'Kroplówka odmładzająca!',
+        'Bomba minerałowa!',
+        'Kroplówka witaminowa na odchudzanie!',
+        'Chelatacja',
+        'Kroplówka aminokwasowa',
     ]
 
     const dropdownContent = [
-        ['Glutation (γ-glutamylocysteinyloglicyna – GSH) to tripeptyd złożony z trzech aminokwasów:\n' +
-        'kwasu glutaminowego, cysteiny i glicyny. Nazywany jest najlepszym przeciwutleniaczem,\n' +
-        'cudownym antyoksydantem czy nawet manną dla mitochondriów komórkowych naszego\n' +
-        'organizmu. Znajdziemy go w prawie każdej żywej komórce – bez jego obecności komórka\n' +
-        'umiera. Ten związek chemiczny produkowany jest przez organizm człowieka w wątrobie,\n' +
-        'ponadto syntetyzowany jest również bezpośrednio w komórce, gdzie powstaje w obecności\n' +
-        'witaminy C i N-acetylocysteiny. Naturalnie występuje w naszym organizmie we wszystkich\n' +
-        'komórkach, narządach i tkankach. Bierze udział w syntezie białek, detoksykacji a przede\n' +
-        'wszystkim naprawie naszego DNA.'],
+        ['Odpowiednie nawodnienie organizmu jest głównym, najważniejszym czynnikiem dla dobrego funkcjonowania oraz ma bezpośredni wpływ na nasze samopoczucie. Kroplówka nawadniająca to odpowiednio opracowany skład płynu oraz elektrolitów niezbędnych do prawidłowego funkcjonowania organizmu. Podany w formie dożylnej, pozwala szybko i skutecznie uzupełnić poziom tych składników. Terapie nawadniającą poprzedza konsultacja lekarska. Lekarz, na podstawie badań i analizy krwi, ustala zapotrzebowanie pacjenta na płyny i elektrolity. Po przygotowaniu preparatu oraz samego pacjenta, wykonuje się zabieg, który polega na podaniu dożylnie kroplówki nawadniającej. Zabieg trwa tylko kilkanaście minut. Terapia przynosi natychmiastowe efekty. Już po chwili od rozpoczęcia zabiegu mijają zawroty i ból głowy, serce bije spokojnie i mocno, błony śluzowe odzyskują właściwą sobie wilgotność, zmęczenie mija. Zadbaj o nawodnienie swojego organizmu i zastosuj kroplówkę na odwodnienie, która szybko i skutecznie przywróci Ci doskonałe samopoczucie.'],
 
-        ['Kwas Alfa-liponowy inaczej nazywany kwasem ALA, należy do grupy nasyconych kwasów\n' +
-        'tłuszczowych. Jest to związek, który posiada zdolność przenikania, co pozwala mu na dotarcie do\n' +
-        'każdej komórki naszego organizmu. Metabolizuje się w wątrobie, a jego produkty wydalane są\n' +
-        'wraz z moczem i potem. Zatem suplementacja tego kwasu jest niezwykle bezpieczna i nie\n' +
-        'stwarza zagrożenia dla zdrowia. Wykazuje on działanie podobne do witamin, lecz niestety nasz\n' +
-        'organizm nie jest w stanie sam syntetyzować ALA. Posiada szerokie spectrum działania,\n' +
-        'ponieważ nazywany jest „ królem antyoksydantów”. Jego korzystne działanie to przede\n' +
-        'wszystkim:'],
+        ['Jest to czołówka najskuteczniejszych antyoksydatnów, który oddziałuje na układ nerwowy. Numer jeden w profilaktyce i wsparciu leczenia chorób układu nerwowego takich jak stwardnienie rozsiane czy choroba Alzheimer’a. Kwas alfa-liponowy bardzo skutecznie wspomaga Pacjentów z przypadłością wysokiego poziomu trójglicerydów i cholesterolu frakcji LDL, niosących za sobą ryzyko na wystąpienie chorób układu sercowo – naczyniowego.Kroplówkę z kwasem alfa-liponowym polecamy również osobom chorym na cukrzycę. Oprócz tego wlewy dożylne z kwasu alfa-liponowego wspierają sportowców w okresie wysiłku wspomagając regenerację mięśniową i odbudowę zapasów glikogenu w wątrobie. Ponad to wykazano przy regularnym przyjmowaniu wspierające działanie kwasu alfa-liponowego podczas usuniecie metali ciężkich z organizmu.'],
 
-        ['Solcoseryl to bezbiałkowy dializat z krwi cieląt. Jest on preparatem szeroko stosowanym w\n' +
-        'medycynie, ponieważ ułatwia procesy regeneracyjne. Pozwala on przyśpieszyć odnowę\n' +
+        [`Nie czekaj, zareaguj już teraz. Żyjemy w ciągłym stresie i nie odpoczywamy efektywnie.` +
+        'Skutkiem stresu jest ciągłe uczucie zmęczenia, brak sił, energii do życia, osłabienie, bezsenność, spadek odporności. W związku z tym polecamy Państwu wlewy regeneracyjne. Kroplówki regenerujące w naszej ofercie dedykowane są osobom młodym i starszym, które odczuwają spadek formy, wypalenie zawodowe, brak motywacji i energii. Terapia regeneracyjna to szybka i skuteczna pomoc po dużym wysiłku fizycznym, wyczerpujących treningach, w ciągłym stresie i przemęczeniu a także w okresie rekonwalescencji. ' +
+        'W skład kroplówki regenerującej wchodzi:\n' +
         '\n' +
-        'uszkodzonych czy rozerwanych tkanek. Dzięki działaniu tego leku, komórki na nowo podejmują\n' +
-        'czynność, regenerując się. Posiada wiele właściwości leczniczych. Do najważniejszych zalicza się :\n' +
+        '– witamina C która wzmacnia naczynia krwionośne i błony komórkowe;\n' +
         '\n' +
-        '• Poprawę krążenia krwi\n' +
-        '• Usprawnienie procesów naprawczych uszkodzonych tkanek\n' +
-        '• Nasila syntezę kolagenu\n' +
-        '• Wpływa na przyśpieszenie transportu glukozy oraz substancji odżywczych do komórek\n' +
-        '• Niweluje stany zapalne\n' +
-        '• Posiada właściwości radio-ochronne\n' +
-        '• Zapobiega i zmniejsza wtórne zmiany zwyrodnieniowe\n' +
-        '• Stanowi nośnik energii chemicznej używanej w metabolizmie komórki\n' +
-        '• Przyczynia się do aktywizacji transportu tlenu i jego wykorzystania przez komórki\n' +
-        'organizmu\n' +
-        '• Wspomaga układ nerwowy\n' +
-        '• Przyśpiesza proces gojenia\n' +
+        '– witamina D która wpływ na siłę i wytrzymałość kości, poza tym wspiera układ immunologiczny;\n' +
         '\n' +
-        'Efekty podania pojawiają się szybko po zakończonej kuracji i wyraźnie przyśpieszają elekty\n' +
-        'procesu samonaprawy organizmu i jego regeneracji. Komórki są lepiej ukrwione, dotlenione i\n' +
-        'odżywione. Solcoseryl jest zalecany nie tylko przy wszelakich schorzeniach, ale rownież polecany\n' +
-        'sportowcom w celu wzmocnienia i regeneracji potreningowej oraz zapobiega spadkom kondycji.\n' +
-        'Wlewy wyróżnia fakt, że przynoszą one wiele korzyści bez powodowania istotnych skutków\n' +
-        'ubocznych.'],
-
-        ['Układ odpornościowy to jeden z ważniejszych układów naszego organizmu. Chroni nas przed\n' +
-        'infekcjami, ale także likwiduje powstające komórki nowotworowe. Gromadzi się ona w\n' +
-        'komórkach, a głównie w leukocytach, które wytwarzają przeciwciała potrzebne do walki z\n' +
-        'zagrożeniami. Witamina C, którą wiele osób nazywa „ witaminą życia” jest bardzo silnym\n' +
-        'antyoksydantem. Przygotowuje nasz organizm do walki z każdym zagrożeniem. Bierze udział w\n' +
-        'procesie tworzenia kolagenu, więc poprawia elastyczność stawów i zmniejsza ryzyko kontuzji.'],
-
-        ['Magnez jest pierwiastkiem, który ma ogromny wpływ na funkcjonowanie naszego organizmu.\n' +
-        'Jeśli w naszym organizmie jest go za mało, możemy z łatwością rozpoznać jego niedobór.\n' +
-        'Pierwsze objawy przejawiają się najczęściej jako:\n' +
-        '• drętwienie i mrowienie kończyn\n' +
-        '• bóle głowy\n' +
-        '• ogólne osłabienie organizmu\n' +
-        '• niechęć i pogorszenie samopoczucia\n' +
-        '• skurcze w szczególności łydek\n' +
-        '• wszelkiego rodzaju drgania tkanek np. powiek\n' +
-        '• obniżenie jakości snu\n' +
-        'W naszych gabinetach, podaż magnezu odbywa się w formie dożylnej. Skutki odczuwalne są od\n' +
-        'razu, a czas trwania kroplówki z magnezem wynosi około 60 minut.'],
-
-        ['Witaminy są to niezbędne elementy, dzięki którym nasz organizm prawidłowo funkcjonuje.\n' +
-        'Dzięki nimi mamy dobre samopoczucie a nasze układy i narządy prawidłowo funkcjonują.\n' +
-        'Organizm ludzki nie jest w stanie samodzielnie wytwarzać witamin, dlatego niezbędne jest ich\n' +
-        'zewnętrzne dostarczanie, m.in. poprzez suplementy doustne czy odpowiednio zbilansowana\n' +
-        'dieta. Niestety, wchłanialność witamin z zewnątrz nie jest wystarczająca. By zapewnić naszemu\n' +
-        'organizmowi szybszy efekt terapeutyczny, przygotowaliśmy odpowiednio dobrany Kompleks\n' +
-        'Witaminowy, który składa się z 12 najważniejszych witamin łatwo przyswajalnych przez nasz\n' +
-        'organizm. Dzięki kroplówce z multiwitaminą ADEK nasz organizm dostanie nieprawdopodobny\n' +
-        'zastrzyk energii.'],
-
-        ['Kroplówka nawadniająca ma na celu utrzymanie odpowiedniego nawodnienia naszego\n' +
-        'organizmu. Zalecana jest, kiedy tracimy płyny przez chorobę, biegunkę, wymioty, gorączkę lub\n' +
-        'nie jesteśmy w stanie przyjmować odpowiedniej ilości płynów doustnych.\n' +
+        '– witamina E która reguluje przepływ krwi, poprawia ukrwienie tkanek i wydolność organizmu;\n' +
         '\n' +
-        'W swoim składzie ma elektrolity (sód, potas, magnez, wapń). Aby działanie takiej kroplówki było\n' +
-        'jeszcze silniejsze możemy dodać dodatkową porcję magnezu, by przywrócić odpowiednią\n' +
-        'równowagę elektrolitową.\n' +
+        '– witamina A która przyspiesza regenerację, wzmacnia system immunologiczny;\n' +
         '\n' +
-        'Dobrze nawodniony organizm to wiele korzyści dla zdrowia i ogólnego samopoczucia.'],
-
-        ['Custom Dropdown Content 1'],
-        ['Custom Dropdown Content 2'],
-        ['Custom Dropdown Content 3'],
-
-        ['Kwas foliowy, inaczej witamina B9, odgrywa kluczową rolę w wielu procesach metabolicznych w\n' +
-        'organizmie.\n' +
-        'Oto niektóre z głównych korzyści związanych z dostatecznym spożyciem kwasu foliowego:\n' +
-        '1. Podział komórkowy: - jest niezbędny do prawidłowego podziału komórek, co jest istotne\n' +
-        'dla wzrostu, naprawy tkanek i regeneracji organizmu.\n' +
-        '2. Synteza DNA i RNA: - jest niezbędny do syntezy kwasów nukleinowych - DNA i RNA. Jest\n' +
-        'to istotne zarówno dla utrzymania zdrowej struktury genetycznej komórek, jak i dla\n' +
-        'przekazywania informacji genetycznych podczas podziału komórkowego.\n' +
+        '– witamina PP odpowiedzialna za układ nerwowy, poprawia wygląd skóry poprzez stymulację syntezy kolagenu;\n' +
         '\n' +
-        '3. Zdrowie układu nerwowego: - jest kluczowy dla zdrowia układu nerwowego. Jest\n' +
-        'szczególnie ważny w okresie prenatalnym, pomagając w zapobieganiu wadom cewy\n' +
-        'nerwowej u rozwijającego się płodu.\n' +
-        '4. Produkcja krwinek czerwonych: - jest niezbędny do produkcji nowych krwinek\n' +
-        'czerwonych. Niedobór może prowadzić do niedokrwistości, co objawia się osłabieniem,\n' +
-        'zmęczeniem i innymi problemami zdrowotnymi.\n' +
-        '5. Zdrowe serce i układ krążenia: - może pomagać w regulacji poziomu homocysteiny we\n' +
-        'krwi. Wysokie poziomy homocysteiny są związane z większym ryzykiem chorób serca i\n' +
-        'naczyń krwionośnych. Spożycie wystarczającej ilości kwasu foliowego może pomóc w\n' +
-        'zmniejszeniu tego ryzyka.\n' +
-        '6. Wsparcie dla układu immunologicznego: - może wspomagać funkcjonowanie układu\n' +
-        'immunologicznego, pomagając w ochronie organizmu przed infekcjami i chorobami.\n' +
-        '7. Zdrowe funkcje mózgu: - istnieją badania sugerujące, że kwas foliowy może wpływać na\n' +
-        'zdrowie mózgu, wspomagając funkcje poznawcze i zmniejszając ryzyko związane z\n' +
-        'występowaniem chorób neurodegeneracyjnych, takich jak choroba Alzheimera.\n' +
-        '8. Zdrowa skóra: - jest zaangażowany w procesy regeneracji komórek skóry i może\n' +
-        'przyczyniać się do utrzymania zdrowego wyglądu skóry.'],
+        '– witamina H bierze udział w przemianach cukrów i białek, poprawia wygląd skóry, paznokci i włosów;\n' +
+        '\n' +
+        '– witamina B5 odgrywa ważną rolę w syntezie hormonów sterydowych i cholesterolu oraz przemianach metabolicznych kwasów tłuszczowych.\n' +
+        '\n' +
+        'Poza tym kroplówka regenerująca zawiera także:\n' +
+        '\n' +
+        '– sód (Na) – wpływa na funkcjonowanie układu nerwowego oraz gospodarkę kwasowo – zasadową, uczestniczy w regulacji napięcia mięśniowego i ilości oraz rozmieszczenia wody w organizmie;\n' +
+        '\n' +
+        `– potas (K) – wpływa na  przemianach białek i węglowodanów, poprawia funkcjonowanie układu nerwowego, mięśni, pomaga regulować gospodarkę wodną, pracę nerek i ciśnienie krwi. `],
 
-        ['Koenzym Q10 (ubichinon, potocznie nazywany CoQ10) to związek chemiczny obecny w\n' +
-        'komórkach ludzkich i wielu innych organizmów. Pełni on istotną rolę w procesach\n' +
-        'energetycznych wewnątrzkomórkowych oraz działa jako silny antyoksydant, pomagając w\n' +
-        'ochronie komórek przed uszkodzeniami spowodowanymi stresem oksydacyjnym.' +
-        'Dlaczego watro skorzystać z kroplówki z Koenzymem Q10\n' +
-        'Koenzym Q10 występuje naturalnie w niektórych produktach spożywczych, takich jak mięso,\n' +
-        'ryby, orzechy, nasiona, oleje roślinne i warzywa. Jednak jego ilość w diecie może być\n' +
-        'ograniczona, a stężenia w organizmie mogą maleć wraz z wiekiem. Z tego powodu,\n' +
-        'suplementacja Q10 jest zalecana osobom, zwłaszcza w celach zdrowotnych, a najszybszym i\n' +
-        'najbardziej skutecznym rozwiązaniem są wlewy dożylne.'],
+        [`Wszyscy chcemy zatrzymać czas, zniwelować oznaki starzenia się a suchą, zmęczoną skórę pozbawioną sprężystości i blasku zamienić na piękną i jędrną. Efekt ten można osiągnąć w skuteczny, bezpieczny i niechirurgiczny sposób. Sposobem na odzyskanie młodzieńczego wyglądu skóry, jest kroplówka przeciwstarzeniowa, której skład pozwala na dogłębne odżywienie, nawilżenie i odmłodzenie skóry. 
 
-        ['Custom Dropdown Content 3'],
+Kroplówka skład się z:
+
+witaminy A – wspomaga procesy widzenia, poprawia odporność organizmu i ma działanie antyoksydacyjne, a więc usuwa wolne rodniki przyspieszające procesy starzenia się skóry,
+
+witaminy E – witamina młodości, silnym antyoksydant. Zatrzymuje starzenie się skóry i działa przeciwnowotworowo. Reguluje także poziom insuliny we krwi
+
+witaminy D3 – wpływa na stan kości i zębów, chroni układ sercowo – naczyniowy, pomaga chronić przed cukrzycą i wzmacnia system immunologiczny;
+
+witaminy C – ma działanie antyoksydacyjne, poprawia odporność organizmu, bierze udział w procesach metabolicznych, wspiera funkcjonowanie układu nerwowego i oddechowego, przynosi ulgę w stanach wyczerpania.
+
+Odzyskanie młodego wyglądu teraz jest proste. Po terapii Państwa skóra odzyska dawną sprężystość i blask, stanie się jędrna, doskonale nawilżona oraz dogłębnie odżywiona. Takiego efektu nie zapewnią żadne domowe metody odmładzające. Unikną Państwo także bolesnych ingerencji chirurgicznych. Kroplówki polecane są z terapią biorezonansową Aparatem Mora® Beauty „program przeciwzmarszczkowy lub przebarwienia skóry oraz wzmacniający włosy i paznkcie”`],
+
+        [`Kroplówka minerałowa – magnez, sód, potas, jod, chrom, cynk, selen, molibden, mangan uzupełniają niedobór witamin, które odpowiedzialne są za kondycję naszej skóry, paznokci oraz włosów. Pierwiastki te regulują prawidłową funkcję mięśnia sercowego oraz mięśni szkieletowych.
+
+Bomba minerałowa w szczególności polecana jest:
+
+– pacjentom z niedoborami żelaza,
+
+– pacjentom chcącym powstrzymać apetyt na słodycze,
+
+– pacjentom mającym problemy z nadwagą,
+
+– osobą odchudzającym się,
+
+– pacjentkom planującym zajście w ciążę,
+
+– pacjentom z zaburzeniami pracy tarczycy,
+
+– pacjentom na dietach odchudzających chcących powstrzymać łaknienie na słodycze,
+
+– kroplówki zalecane z terapią biorezonanasową – Aparat Mora® Beauty  z dobranym program Biofonii.`],
+
+        [`Odpowiednio dobrany skład witamin wspomaga nas w dążeniu do zdrowej szczupłej sylwetki, ułatwiając odchudzanie. Kroplówki witaminowe na odchudzanie to dobrany skład witamin wspomagających procesy metabolizmu tłuszczów i węglowodanów. Wykazują dużą skuteczność. Dzięki formie wlewu dożylnego wszystkie składniki trafiają prosto do układu krwionośnego. 
+        
+Kroplówka skład się z:
+        
+witaminy B1 oraz B2 – które wspomagają procesy spalania węglowodanów i skutecznie regulują proces odchudzania.
+
+witaminy B6 oraz B12 – działają wspomagająco na pracę czerwonych krwinek i usprawniają proces dostarczania tlenu.
+
+witaminy B7 – działa wspomagająco na procesy metabolizmu kwasów tłuszczowych.
+
+witaminy C – zapobiega nadwadze, uczestniczy w procesie, który zapobiega gromadzeniu się tłuszczu w organizmie.
+
+Tak skomponowana kroplówka skutecznie poprawia metabolizm i funkcjonowanie całego organizmu, co prowadzi do utraty zbędnych kilogramów i ma pozytywny wpływ na wygląd sylwetki. Doskonale sprawdza się z terapią biorezonansową Aparatem Mora® Beauty „program kontrola wagi”`],
+
+        ['Chelatacja to metoda oczyszczania organizmu z toksyn, wapnia i metali ciężkich, które odkładają się w tętnicach tworząc złogi i zatory. Chelatacja działa kompleksowo na nasz organizm. Usuwa wapń z blaszek miażdżycowych oczyszczając naczynia krwionośne ze złogów lipidowo-cholesterolowych. Uwapnione złogi miażdżycowe, utrudniają przepływ krwi, oraz doprowadzanie tlenu i substancji odżywczych do tkanek i komórek. Terapia wpływa pozytywnie na stan i drożność naczyń krwionośnych oraz na przepływ krwi. Dzięki chelatacji krążenie krwi w całym ciele jest dużo lepsze a poszczególne tkanki i narządy są lepiej odżywione. Chelatację przeprowadzamy kiedy mamy do czynienia  z zatruciem metalami ciężkimi. Powietrze, które wdychamy oraz żywność, którą jemy każdego dnia to  jedna z przyczyn do profilaktyki zabiegami chelatacji w celu usunięcia metali ciężkich. Nagromadzenie tych pierwiastków przez wiele może być źródłem rozwój groźnych chorób oraz nowotworów. Chelatacja jest bardzo pomocna w przypadku miażdżycy i zmian zwyrodnieniowych, rozwijających się latami i w początkowej fazie bezobjawowo.\n' +
+        '\n' +
+        'Chelatacja poprawia ukrwienie przez co nasz organizm może lepiej funkcjonować. Wskazania do chelatacji to:\n' +
+        '\n' +
+        '– choroba wieńcowa \n' +
+        '\n' +
+        '– po przebytym zawale serca \n' +
+        '\n' +
+        '– przewlekłe niedokrwienie kończyn, \n' +
+        '\n' +
+        '– zaburzenia krążenia mózgowego \n' +
+        '\n' +
+        '– zwężeniem światła tętnic szyjnych i kręgowych,\n' +
+        '\n' +
+        '– zaburzeń równowagi, czucia, niedowładów\n' +
+        '\n' +
+        '– po przebytym udarze \n' +
+        '\n' +
+        '– dla osób starszych\n' +
+        '\n' +
+        '– cukrzyca typu II \n' +
+        '\n' +
+        '– choroba Alzheimera\n' +
+        '\n' +
+        '– w chorobach oczu spowodowanych zwapnieniem siatkówki,\n' +
+        '\n' +
+        '– zaburzeniach słuchu, potencji, migrenie, zaburzeniach równowagi oraz w wielu innych chorobach spowodowanych zaburzeniami gospodarki wapnia w organizmie\n' +
+        '\n' +
+        '– przy zapobieganiu chorobom nowotworowym'],
+
+        ['Rzadko kto potrafi tak przygotowywać posiłki, aby zapewnić optymalną dawkę każdego z aminokwasów. Dlatego super wyjściem są aminokwasy w kroplówce. \n' +
+        '\n' +
+        'W kroplówce aminokwasowej znajduje się:\n' +
+        '\n' +
+        '– glutamina uczestnicząca w procesach spalania tłuszczu i budowy mięśni, pełni również rolę neuroprzekaźnikiem;\n' +
+        '\n' +
+        '– leucyna zapobiegająca zniszczeniu mięśni przy większym wysiłku fizycznym, pobudza hormony takie jak somatotropina, insulina i hormony tarczycy;\n' +
+        '\n' +
+        '– walina podnosi odporność organizmu, ma pozytywny wpływ na układ nerwowy, reguluje ilość azotu i glukozy;\n' +
+        '\n' +
+        '– seryna jest niezbędna do prawidłowego funkcjonowania układu nerwowego, bierze udział w procesach metabolicznych;\n' +
+        '\n' +
+        '– metionina ma działanie antyoksydacyjne, reguluje pracę tarczycy;\n' +
+        '\n' +
+        '– fenyloalanina reguluje pracę układu nerwowego, tarczycy i nadnerczy, poprawia samopoczucie i poziom energii;\n' +
+        '\n' +
+        '– alanina podnosi wydolność organizmu i koncentrację;\n' +
+        '\n' +
+        '– izoleucyn stymuluje układ immunologiczny, poprawia metabolizm pomaga regulować poziom krwi w organizmie;\n' +
+        '\n' +
+        '– glicyna jest jednym z budulców kolagenu, wpływa także na syntezę glukozy i kreatyny;\n' +
+        '\n' +
+        '– lizyna wspomaga wchłanianie wapnia i syntezę białek, uczestniczy w produkcji hormonów, enzymów oraz przeciwciał;\n' +
+        '\n' +
+        '– metionina antyoksydant, zapobiega stłuszczeniu wątroby, reguluje pracę tarczycy;\n' +
+        '\n' +
+        '– arginina uczestniczy w regulacji ciśnienia krwi, zmniejsza ryzyko zawału serca, reguluje działanie insuliny i hormonu wzrostu;\n' +
+        '\n' +
+        '– cytrulina poprawia napływ krwi do mięśni poddawanych wysiłkowi w szczególnie polecana sportowcom;\n' +
+        '\n' +
+        '– tauryna przyspiesza regenerację mięśni po wysiłku, ma działanie detoksykujące, zwiększa siłę skurczów serca.\n' +
+        '\n' +
+        'Aminokwasy pełnią w organizmie wiele bardzo ważnych zadań. Niedobory mogą zaburzyć funkcjonowanie niektórych układów, a następnie całego ustroju. Dlatego warto korzystać z możliwości, jakie oferują aminokwasy w kroplówce. To szybki i skuteczny sposób na uzupełnienie ich poziomu. Zabieg poprzedzony jest konsultacją lekarską i badaniem krwi. Podania aminokwasów dożylnie to optymalne rozwiązanie ominięcia układu pokarmowego, a do krwiobiegu dostarczana jest dokładnie taka ilość aminokwasów, jaka jest potrzebna.'],
+
     ];
     const [openDropdownIndex, setOpenDropdownIndex] = useState<number | null>(null); // State to manage open dropdown index
 
@@ -177,9 +184,6 @@ function Wlewy() {
                             witamin, dlatego bardzo dobrze sprawdzą się u osób mających ich duże niedobory.
                             <br/>
                             <br/>
-                            W terapii biorezonansowej wykorzystuje się istniejące w organizmie człowieka drgania
-                            elektromagnetyczne, które są nadrzędne w stosunku do procesów biochemicznych i nimi
-                            sterują.
                         </a>
                         <img src={bioresonance} alt={'biores'}/>
                     </div>
@@ -211,7 +215,7 @@ function Wlewy() {
                                         <h3>Czytaj więcej</h3>
                                     </div>
                                     <div className={'contact-button'}>
-                                        <h3>Zarejestruj się!</h3>
+                                        <a href={'tel:577-935-145'}><h3>Zarejestruj się!</h3></a>
                                     </div>
                                 </div>
                             )}

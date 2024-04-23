@@ -149,6 +149,7 @@
     margin: 10px;
 }
 .dropdown-content{
+    white-space: pre-wrap;
     animation: fade 1s;
     display: flex;
     flex-direction: row;
@@ -168,6 +169,9 @@
     & h3{
         padding: 20px;
         font-weight: 450;
+    }
+    & a{
+        color: white;
     }
 }
 .price{
@@ -288,7 +292,7 @@
         height: 0;
     }
     to{
-        height: 350px;
+        height: 400px;
     }
 
 }
