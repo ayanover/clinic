@@ -9,10 +9,10 @@ function Pasozyty() {
                 <img src={photo} alt={'reception-desk'}/>
             </div>
             <div className={'content-container-bio'}>
-                <div className={'section-container'}>
+                <div className={'section-container-bio'}>
                     <h2>Kuracja  <span>antypasożytnicza</span></h2>
 
-                    <div className={'content-section photo-section'}>
+                    <div className={'content-section-bio photo-section-bio'}>
                         <img src={bioresonance} alt={'biores'}/>
                         <a><span>Pasożyty </span> stanowią spore zagrożenie dla naszego organizmu. Żywią się komórkami ludzkiego
                     organizmu oraz powodują poważne problemy zdrowotne. Utrudnienie w rozpoznaniu i leczeniu
@@ -35,7 +35,7 @@ function Pasozyty() {
                         </a>
 
                     </div>
-                    <div className={'content-section'}>
+                    <div className={'content-section-bio'}>
                         <a>
                             Jeżeli zauważysz u siebie coś niepokojącego, to skontaktuj się z nami i postaw na skuteczną
                             diagnostykę oraz terapię biorezonansową.

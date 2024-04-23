@@ -9,10 +9,10 @@ function Odpornosc() {
                 <img src={photo} alt={'reception-desk'}/>
             </div>
             <div className={'content-container-bio'}>
-                <div className={'section-container'}>
+                <div className={'section-container-bio'}>
                     <h2>Terapia <span>na odporność</span></h2>
 
-                    <div className={'content-section photo-section'}>
+                    <div className={'content-section-bio photo-section-bio'}>
                         <img src={bioresonance} alt={'biores'}/>
                         <a><span>Brak odporności</span><br/>
                             Jeśli występują częste przeziębienia a stosowane preparaty działają jedynie „na chwilę”, po czym
@@ -26,7 +26,7 @@ function Odpornosc() {
                         </a>
 
                     </div>
-                    <div className={'content-section'}>
+                    <div className={'content-section-bio'}>
                         <a>
                             <h3><span>Brak odporności, przyczyny</span></h3>
                             Przyczyn zaburzonej odporności może być bardzo wiele. Najczęściej są to: <br/>

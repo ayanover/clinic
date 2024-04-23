@@ -9,10 +9,10 @@ function Bolerioza() {
                 <img src={photo} alt={'reception-desk'}/>
             </div>
             <div className={'content-container-bio'}>
-                <div className={'section-container'}>
+                <div className={'section-container-bio'}>
                     <h2>Terapia <span>Boleriozy</span></h2>
 
-                    <div className={'content-section photo-section'}>
+                    <div className={'content-section-bio photo-section-bio'}>
                         <img src={bioresonance} alt={'biores'}/>
                         <a><span>Borelioza </span>  to bardzo poważne zagrożenie. Niewłaściwie zdiagnozowana i leczona może
                             powodować dotkliwe konsekwencje zdrowotne dotyczące m.in. tkanki łącznej, mięśniowej i
@@ -27,7 +27,7 @@ function Bolerioza() {
                         </a>
 
                     </div>
-                    <div className={'content-section'}>
+                    <div className={'content-section-bio'}>
                         <a>
                             <br/>
                             <span>Diagnostyka i leczenie boreliozy biorezonansem</span>

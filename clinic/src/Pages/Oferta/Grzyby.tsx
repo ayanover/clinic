@@ -9,10 +9,10 @@ function Grzyby() {
                 <img src={photo} alt={'reception-desk'}/>
             </div>
             <div className={'content-container-bio'}>
-                <div className={'section-container'}>
+                <div className={'section-container-bio'}>
                     <h2>Terapia <span>Grzybów</span></h2>
 
-                    <div className={'content-section photo-section'}>
+                    <div className={'content-section-bio photo-section-bio'}>
                         <img src={bioresonance} alt={'biores'}/>
                         <a><span>Biorezonans</span> jest specjalistyczną metodą diagnostyki i terapii, która
                             zapoczątkowała zupełnie
@@ -27,7 +27,7 @@ function Grzyby() {
                         </a>
 
                     </div>
-                    <div className={'content-section'}>
+                    <div className={'content-section-bio'}>
                         <a>
                             <br/>
                             <br/>

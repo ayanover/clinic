@@ -9,10 +9,10 @@ function Alergie() {
                 <img src={photo} alt={'reception-desk'}/>
             </div>
             <div className={'content-container-bio'}>
-                <div className={'section-container'}>
+                <div className={'section-container-bio'}>
                     <h2>Terapia <span>Alergii</span></h2>
 
-                    <div className={'content-section photo-section'}>
+                    <div className={'content-section-bio photo-section-bio'}>
                         <img src={bioresonance} alt={'biores'}/>
                         <a><span>Alergia </span> to nadwrażliwość na różne pospolite substancje występujące w otoczeniu
                             ,żywności i przedmiotach codziennego użytku. W zasadzie są one nieszkodliwe, zdarza
@@ -24,7 +24,7 @@ function Alergie() {
                         </a>
 
                     </div>
-                    <div className={'content-section'}>
+                    <div className={'content-section-bio'}>
                         <a>
                             Do walki z alergenami organizm mobilizuje mechanizmy odpornościowe ,a konkretnie znajdujące się w krwioobiegu przeciwciała,
                             zawsze gotowe do obrony przed szkodliwymi substancjami.

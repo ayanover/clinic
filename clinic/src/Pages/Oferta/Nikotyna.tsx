@@ -9,10 +9,10 @@ function Nikotyna() {
                 <img src={photo} alt={'reception-desk'}/>
             </div>
             <div className={'content-container-bio'}>
-                <div className={'section-container'}>
+                <div className={'section-container-bio'}>
                     <h2>Terapia <span>Antynikotynowa</span></h2>
 
-                    <div className={'content-section photo-section'}>
+                    <div className={'content-section-bio photo-section-bio'}>
                         <img src={bioresonance} alt={'biores'}/>
                         <a>
                             Opisaną poniżej terapię po raz pierwszy zastosował w leczeniu niemiecki lekarz Franz Morell.
@@ -28,7 +28,7 @@ function Nikotyna() {
                         </a>
 
                     </div>
-                    <div className={'content-section'}>
+                    <div className={'content-section-bio'}>
                         <a>
 
                             W czasie terapii dochodzi do eliminacji głodu nikotynowego. Palacze tytoniu zgłaszają się

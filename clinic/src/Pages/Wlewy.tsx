@@ -3,7 +3,6 @@ import photo from '../assets/gabinet.jpg'
 import plus from '../assets/Icons/plus.svg'
 import bioresonance from '../assets/wlewy.jpg'
 import {useState} from "react";
-import BlogPoster from "../Components/BlogPoster.tsx";
 
 function Wlewy() {
     const dropdownNames = [
@@ -203,7 +202,7 @@ function Wlewy() {
                                 <div className="dropdown-content">
                                     {/* Render dropdown content based on the index */}
                                     <h3>
-                                        {dropdownContent[index]}
+                                        {content}
                                     </h3>
                                     <div className={'price'}>
                                         <h4>Cena od: 250 zł</h4>
