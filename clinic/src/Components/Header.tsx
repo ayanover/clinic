@@ -59,22 +59,27 @@ function Header() {
                     </div>
                     <div className={`nav-container ${isOpen ? 'menu-open' : ''}`}>
                         <ul>
-                            <li className={'nav-item'}><Link className={'link'} to={'/'}><img src={Home} alt={'Home'}/></Link></li>
-                            <li className={'nav-item'}><Link className={'link'} to={'/biorezonans'} >Biorezonans</Link></li>
-                            <li className={'nav-item'}><Link className={'link'} to={'/wlewy'} >Wlewy witaminowe</Link></li>
-                            <li className={'nav-item'}><div className={'link dropdown-link'} onClick={handleSubMenuOpen}>Oferta
-                                <div className={`link-dropdown-content ${isSubOpen ? 'submenu-open' : ''}`}>
-                                    <Link className={'link dropdown-item'} to={'/oferta/alergie'}>Alergie</Link>
-                                    <Link className={'link dropdown-item'} to={'/oferta/nikotyna'}>Terapia antynikotynowa</Link>
-                                    <Link className={'link dropdown-item'} to={'/oferta/bolerioza'}>Bolerioza</Link>
-                                    <Link className={'link dropdown-item'} to={'/oferta/odpornosc'}>Terapia na odporność</Link>
-                                    <Link className={'link dropdown-item'} to={'/oferta/grzyby'}>Grzyby, wirusy, bakterie</Link>
-                                    <Link className={'link dropdown-item'} to={'/oferta/pasozyty'}>Pasożyty</Link>
+                            <li className={'nav-item'}><div onClick={handleMenuOpen}><Link className={'link'} to={'/'}><img src={Home} alt={'Home'}/></Link></div></li>
+                            <li className={'nav-item'}><div onClick={handleMenuOpen}><Link className={'link'} to={'/biorezonans'}>Biorezonans</Link></div></li>
+                            <li className={'nav-item'}><div onClick={handleMenuOpen}><Link className={'link'} to={'/wlewy'}>Wlewy witaminowe</Link></div></li>
+                            <li className={'nav-item'}>
+                                <div className={'link dropdown-link'} onClick={handleSubMenuOpen}>Oferta
+                                    <div className={`link-dropdown-content ${isSubOpen ? 'submenu-open' : ''}`}>
+                                        <Link className={'link dropdown-item'} to={'/oferta/alergie'}>Alergie</Link>
+                                        <Link className={'link dropdown-item'} to={'/oferta/nikotyna'}>Terapia
+                                            antynikotynowa</Link>
+                                        <Link className={'link dropdown-item'} to={'/oferta/bolerioza'}>Bolerioza</Link>
+                                        <Link className={'link dropdown-item'} to={'/oferta/odpornosc'}>Terapia na
+                                            odporność</Link>
+                                        <Link className={'link dropdown-item'} to={'/oferta/grzyby'}>Grzyby, wirusy,
+                                            bakterie</Link>
+                                        <Link className={'link dropdown-item'} to={'/oferta/pasozyty'}>Pasożyty</Link>
+                                    </div>
                                 </div>
-                            </div></li>
-                            <li className={'nav-item'}><Link className={'link'} to={'/cennik'} >Cennik</Link></li>
-                            <li className={'nav-item'}><Link className={'link'} to={'/kontakt'}>Kontakt</Link></li>
-                            <li className={'nav-item'}><Link className={'link'} to={'/blog'}>Blog</Link></li>
+                            </li>
+                            <li className={'nav-item'}><div onClick={handleMenuOpen}><Link className={'link'} to={'/cennik'}>Cennik</Link></div></li>
+                            <li className={'nav-item'}><div onClick={handleMenuOpen}><Link className={'link'} to={'/kontakt'}>Kontakt</Link></div></li>
+                            <li className={'nav-item'}><div onClick={handleMenuOpen}><Link className={'link'} to={'/blog'}>Blog</Link></div></li>
                         </ul>
                     </div>
 
