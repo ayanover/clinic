@@ -25,27 +25,87 @@
     height: 80%;
     margin: 50px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     & img{
+        margin-top:15px;
         height: 70%;
+    }
+    & h1{
+        margin-left: 10px;
+        padding: 0;
+        font-size: 1.3rem;
+        width: 100%;
+    }
+    & h2{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        font-size: 1rem;
+        & img{
+            margin: 10px;
+            height: 30px;
+            filter: invert(100%);
+        }
+    }
+    & span{
+        font-weight: 400;
     }
 }
 
 .footer-spacer{
-    width: 1px;
+    width: 3px;
     height: 70%;
     background-color: white;
 }
 
 .copyrights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    text-align: center;
     height: 15%;
     background-color: #114455;
     box-shadow: 0 0px 15px #114455;
 }
+.times-section{
+    margin: 15px;
+}
 
+.footer-nav{
+    width: 100%;
+    list-style: none;
+}
 @media (max-width: 768px) {
-    .footer-container {
+    .footer{
+        flex-direction: column;
+    }
+    .footer-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        height: 33%;
+        ul{
+            width: 40%;
+        }
+        & h1{
+            text-align: center;
+        }
 
+    }
+    .footer-container{
+        height: auto;
+    }
+    .footer-spacer{
+        height: 0;
+        display: none;
+    }
+    .logo-img{
+        width: 40%;
     }
 }

@@ -9,10 +9,10 @@ function Candida() {
                 <img src={photo} alt={'reception-desk'}/>
             </div>
             <div className={'content-container-bio'}>
-                <div className={'section-container'}>
-                    <h2>Terapia <span>Candidy</span></h2>
+                <div className={'section-container-bio'}>
+                    <h2 className={'title'}>Terapia <span>Candidy</span></h2>
 
-                    <div className={'content-section photo-section'}>
+                    <div className={'content-section-bio photo-section-bio'}>
                         <img src={bioresonance} alt={'biores'}/>
                         <a><span>Grzyby candida albicans </span> stały się plagą XXI wieku! Powodują one szereg dolegliwości całego
                         organizmu, takich jak alergie pokarmowe i wziewne, bóle brzucha, brak odporności, wrażliwość
@@ -29,7 +29,7 @@ function Candida() {
                         </a>
 
                     </div>
-                    <div className={'content-section'}>
+                    <div className={'content-section-bio'}>
                         <a>
                             <br/>
                             <br/>

@@ -9,10 +9,10 @@ function Bolerioza() {
                 <img src={photo} alt={'reception-desk'}/>
             </div>
             <div className={'content-container-bio'}>
-                <div className={'section-container'}>
+                <div className={'section-container-bio'}>
                     <h2>Terapia <span>Boleriozy</span></h2>
 
-                    <div className={'content-section photo-section'}>
+                    <div className={'content-section-bio photo-section-bio'}>
                         <img src={bioresonance} alt={'biores'}/>
                         <a><span>Borelioza </span>  to bardzo poważne zagrożenie. Niewłaściwie zdiagnozowana i leczona może
                             powodować dotkliwe konsekwencje zdrowotne dotyczące m.in. tkanki łącznej, mięśniowej i
@@ -27,10 +27,39 @@ function Bolerioza() {
                         </a>
 
                     </div>
-                    <div className={'content-section'}>
+                    <div className={'content-section-bio'}>
+                        <a>
+                            Jakie <span>objawy</span> powinny Cię niepokoić ?
+                            Trudność w rozpoznaniu boreliozy stanowi fakt, że u wielu pacjentów choroba trwa w ukryciu i
+                            na początku nie daje wyraźnych objawów. W tym czasie jednak bakterie i inne patogeny
+                            odkleszczowe powodują spustoszenie w organizmie człowieka. Jeżeli ugryzł Cię kleszcz, to
+                            powodem do niepokoju są takie objawy, jak:
+                            <ul>
+                                <li>uczucie zmęczenia</li>
+                                <li>problemy ze snem</li>
+                                <li>fibromialgia, bóle mięśni, ścięgien</li>
+                                <li>bóle stawów, zwłaszcza kolan, pleców i szyi</li>
+                                <li>bóle głowy</li>
+                                <li>zaburzenia wzroku, uczucie pieczenia oczu</li>
+                                <li>szumy uszne</li>
+                                <li>skurcze i pocenie się w nocy</li>
+                                <li>zaburzenia pracy serca (arytmia)</li>
+                                <li>zaburzenia oddychania (bezdech w czasie snu)</li>
+                                <li>porażenie nerwu twarzowego</li>
+                                <li>bóle korzeniowe splotu barkowego lub lędźwiowo-krzyżowego</li>
+                                <li>huśtawki nastrojów</li>
+                                <li>depresja</li>
+                                <li>bóle żołądka i jelit, zaburzenia trawienia</li>
+                                <li>naprzemienne biegunki i zaparcia</li>
+                                <li>problemy skórne</li>
+                                <li>zaburzenia neurologiczne</li>
+                            </ul>
+                        </a>
+                    </div>
+                    <div className={'content-section-bio'}>
                         <a>
                             <br/>
-                            <span>Diagnostyka i leczenie boreliozy biorezonansem</span>
+                            <span>Diagnostyka i terapia boreliozy biorezonansem</span>
                             <br/>
                             W gabinetach BioSfera w Rzeszowie oferujemy terapię boreliozy za pomocą biorezonansu oraz
                             indywidualnie dobranych protokołow ziołowych.

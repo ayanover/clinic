@@ -1,0 +1,111 @@
+.home-container-bio{
+    font-family: 'Saira';
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.photo-container-bio{
+    text-align: center;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 79%);
+    height: 30vh;
+    width: 100%;
+    border-left: 500px;
+    border-right: 700px;
+    overflow: hidden;
+    align-items: center;
+    & img{
+        object-fit: cover;
+        width:100%;
+        height: auto;
+        max-height: 300px;
+    }
+}
+
+.banner-separator{
+    width: 100%;
+    height: 5px;
+    background-color: #116766;
+}
+.prices{
+    width: 100%;
+}
+.price-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    & h4{
+        width: 80%;
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+}
+
+.price-item{
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 100px;
+    background-color: #55AB88;
+    color: white;
+    border-radius: 10px;
+    margin: 20px;
+}
+.content-container-bio{
+    position: relative;
+    width: 95%;
+    max-width: 1480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    & h2{
+        color: #262424;
+        padding: 0;
+        margin: 0;
+        margin-left: 40px;
+        font-size: 2.5rem;
+    }
+
+    & span{
+        color: #55AB88;
+    }
+}
+
+.prices-section-container{
+    width: 80%;
+    & h1{
+        font-size: 2.3rem;
+        margin-bottom: 5px;
+    }
+}
+@media (max-width: 768px) {
+    .price-container{
+        height: auto;
+        & h4{
+            width: 80%;
+        }
+    }
+    .price-item{
+        width: 100px;
+        height: 60px;
+    }
+    .content-container-bio{
+        width: 100%;
+    }
+}

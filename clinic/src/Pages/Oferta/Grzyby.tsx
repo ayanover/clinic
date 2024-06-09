@@ -9,44 +9,46 @@ function Grzyby() {
                 <img src={photo} alt={'reception-desk'}/>
             </div>
             <div className={'content-container-bio'}>
-                <div className={'section-container'}>
-                    <h2>Terapia <span>Grzybów</span></h2>
+                <div className={'section-container-bio'}>
+                    <h2>Usuwanie <span>Grzybów</span>, <span>Wirusów</span>, <span>Bakterii</span></h2>
 
-                    <div className={'content-section photo-section'}>
+                    <div className={'content-section-bio photo-section-bio'}>
                         <img src={bioresonance} alt={'biores'}/>
-                        <a><span>Biorezonans</span> jest specjalistyczną metodą diagnostyki i terapii, która
-                            zapoczątkowała zupełnie
-                            nowe podejście do medycyny. Zasady obowiązujące w tej metodzie potwierdzają najnowsze
-                            wyniki badań w dziedzinie biofizyki i mechaniki kwantowej, dotychczasowo pomijane w
-                            medycynie konwencjonalnej.
+                        <a><span>Terapia biorezonansowa</span> wykazuje dużą skuteczność w obszarze diagnostyki
+                            zakażenia grzybami,
+                            bakteriami i wirusami, a następnie w procesie leczenia tego typu zakażeń. Podczas
+                            podstawowego testu z dużą dokładnością określimy szkodliwe drobnoustroje, którezainfekowały
+                            Twój organizm. Mogą one bytować w różnych miejscach organizmu orazpowodować szeroki
+                            zakres infekcji i niebezpiecznych objawów.
                             <br/>
                             <br/>
-                            W terapii biorezonansowej wykorzystuje się istniejące w organizmie człowieka drgania
-                            elektromagnetyczne, które są nadrzędne w stosunku do procesów biochemicznych i nimi
-                            sterują.
+                            <span>Terapia biorezonansowa</span> pozwala na
+                            wyszczególnienie patogenów będących obciążeniem dla Twojego organizmu.
+                            Leczenie polega na przeprowadzeniu sekwencji zabiegów, które zneutralizują działanie
+                            szkodliwych drobnoustrojów oraz wyeliminują je z organizmu. W przypadku wybranych grzybów
+                            z rodziny Candida, w tym m.in. Candida albicans, nieocenionym wsparciem w terapii okazuje
+                            się
+                            dedykowana dieta.
                         </a>
 
                     </div>
-                    <div className={'content-section'}>
+                    <div className={'content-section-bio'}>
                         <a>
+                            <span>Zabiegi</span> biorezonansem w naszym gabinecie mogą być stosowane jako
+                            podstawowa niekonwencjonalna metoda leczenia lub jako wsparcie dla środków
+                            farmakologicznych. Każdy przypadek rozpatrujemy indywidualnie. Zakres zabiegów dostosujemy
+                            do Twoich potrzeb i stanu zdrowia.
                             <br/>
                             <br/>
-                            <span>Biorezonans</span> potrafi wykryć nawet ukryte przyczyny choroby i przeprowadzić delikatną formę
-                            kuracji leczniczej.
-                            Opierając się na znajomości dokładnie określonych wartości liczbowych pól
-                            elektromagnetycznych możliwe jest ustalenie, czy narząd emituje pole odpowiadające
-                            zdrowemu organowi, czy uległ on procesowi patologicznemu. Co więcej, znane są częstotliwości
-                            emitowane przez każdą poszczególną bakterię, pasożyt, wirus. Warto podkreślić, że terapia
-                            biorezonansem nie powoduje skutków ubocznych, więc jest całkowicie bezpieczna
-                            <br/>
-                            <br/>
-                            Biorezonansowe testowanie alergenów jest w pełni uznawane przez Światową Organizację
-                            Zdrowia WHO (Od 2019 r.) – jako medycyna naturalna oraz komplementarna, a wyniki są na
-                            Zachodzie Europy honorowane na równi z testami skórnym, płatkowym lub z krwi.
-                            <br/>
-                            <br/>
-                            Zakres testów BRT jest jednak znacznie szerszy, gdyż sprawdzeniu możemy poddać praktycznie
-                            wszystko co spożywamy, używamy lub nas otacza.</a>
+                            Proponujemy Ci bezinwazyjną i w pełni bezpieczną terapię. Leczenie biorezonansem grzybów,
+                            bakterii i wirusów wykazuje dużą skuteczność. Leczenie polega na przeprowadzeniu sekwencji
+                            zabiegów, które zneutralizują działanie szkodliwych drobnoustrojów oraz wyeliminują je z
+                            organizmu. W przypadku wybranych grzybów z rodziny Candida, w tym m.in. Candida albicans,
+                            nieocenionym wsparciem w terapii okazuje się dedykowana dieta. Zabiegi biorezonansem w
+                            naszym gabinecie mogą być stosowane jako podstawowa niekonwencjonalna metoda leczenia
+                            lub jako wsparcie dla środków farmakologicznych. Każdy przypadek rozpatrujemy indywidualnie.
+                            Zakres zabiegów dostosujemy do Twoich potrzeb i stanu zdrowia.
+                        </a>
                     </div>
                 </div>
             </div>
