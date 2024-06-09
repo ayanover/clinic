@@ -11,7 +11,7 @@ function threeBoxSection() {
             <div className={'single-block first'}>
                 <div className={'title'}>
                     <img src={info} alt={'info'}/>
-                    <h2> Doweidz <br/>się więcej! </h2>
+                    <h2> Dowiedz <br/>się więcej! </h2>
                 </div>
                 <div className={'content'}>
                     <h3>Nasz gabinet używa urządzenia Bicom Optima, czyli jednego z najlepszych urządzeń dostępnych na rynku pod względem </h3>
